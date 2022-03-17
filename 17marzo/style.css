@@ -1,0 +1,90 @@
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #56BBF1;
+}
+
+
+
+.filmList {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    height: fit-content;
+    border-radius: 10px;
+    background-color: #4D77FF;
+    border-color: #F2FA5A;
+    border-style: double;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.filmList img {
+    width: 350px;
+    height: auto;
+
+}
+
+.filmList h1 {
+    font-size: 30px;
+    color: #F2FA5A;
+    line-height: 50px;
+}
+
+.filmList #movies {
+    font-size: 20px;
+    line-height: 20px;
+    color: #0c3044;
+    margin: 0 auto 20px auto;
+    list-style: none;
+}
+
+.searchBox {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    height: fit-content;
+    border-radius: 10px;
+    background-color: #4D77FF;
+    border-color: #F2FA5A;
+    border-style: double;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.searchBox h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #F2FA5A;
+}
+
+.searchBox input {
+    font-family: 'Montserrat', sans-serif;
+    width: 350px;
+    height: 15px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.searchBox button {
+    width: 80px;
+    height:40px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #56BBF1;
+}
+
+.searchBox button:hover {
+    background-color: #F2FA5A;
+    font-weight: bold;
+    color: #4D77FF;
+}
