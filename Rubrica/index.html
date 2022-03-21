@@ -1,0 +1,39 @@
+<!-- Sulla base della lezione odierna, e riprendendo le esercitazioni passate, creare una rubrica completa! Che:
+
+mostri la lista dei contatti presenti (createne pure una a scelta di almeno 5 individui)
+permette l'aggiunta di nomi alla lista dei contatti
+permetta la rimozione di un determinato contatto (scegliete l'approccio che preferite)
+che conservi e peschi la lista dei contatti servendoci del LocalStorage
+Il tutto dovrà essere completo di html/css, di fatto dobbiamo creare una rubrica utilizzabile dagli ipotetici utenti.
+
+Avanzato:
+Per chi volesse cimentarsi già con l'implementazione di try/catch, provare ad integrare nell'esercizio sopra un
+controllo per ognuna delle quattro funzionalità. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubrica Normandy SR2</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+</head>
+<body>
+    <span class="rubrica">
+        <h1>Rubrica Normandy SR2</h1>
+        <ul id="people"></ul>
+        <div id="nomeEnumero"><label>Nome:</label>
+        <input type="text" id="inputNome">
+        <label>Numero:</label>
+        <input type="text" id="inputNumero">
+        <button id="button">Inserisci</button></div>
+    </span>
+
+    
+</body>
+<script src="./script.js"></script>
+</html>

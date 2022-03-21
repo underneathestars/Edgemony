@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.rubrica {
+    display: block;
+    background-color: black;
+    width: 50%;
+    margin: 30px auto 0 auto;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: red;
+}
+
+.rubrica h1 {
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.rubrica ul {
+    margin-bottom: 40px;
+}
+
+.rubrica li {
+    list-style: none;
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+li:hover {
+    cursor: pointer;
+    color: red;
+}
+
+#nomeEnumero {
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px 50px 100px;
+    height: auto;
+}
+
+#nomeEnumero label {
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    padding: 5px 0 3px 0;
+}
+
+#nomeEnumero input {
+    height: 30px;
+    font-family:'Rajdhani', sans-serif;
+    font-weight: 400;
+    padding: 10px;
+}
+
+#nomeEnumero #button {
+    font-family:'Rajdhani', sans-serif;
+    font-size: 20px;
+    margin: 20px auto;
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: red;
+}
+
+#nomeEnumero #button:hover {
+    border-style: solid;
+    border-color: white;
+    background-color: red;
+    font-weight: 800;
+    cursor: pointer;
+    
+}
