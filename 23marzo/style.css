@@ -1,0 +1,48 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+img {
+    width: 100px;
+    margin: 10px;
+
+}
+
+.titolo {
+    display: block;
+    background-color: palevioletred;
+}
+
+.titolo #pageTitle {
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}
+
+.cardWrapper {
+    margin: 100px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    width: 200px;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: grey;
+    height: 400px;
+    flex-direction: column;
+    overflow: scroll;
+    }
+
+.card .description {
+    padding: 10px auto;
+    margin: 10px;
+    
+}
