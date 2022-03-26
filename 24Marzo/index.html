@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="parteSopra">
+        <h1>Inserisci qui il tuo film</h3>
+        <form id="addMovieInput">
+        <label for="title">Film</label>
+        <input type="text" name="title" id="title" placeholder="titolo del film">
+        <label for="desc">Descrizione</label>
+        <input type="text" name="desc" id="desc" placeholder="descrizione del film">
+
+        
+
+        <label for="poster">Poster</label>
+        <input type="text" name="poster" id="poster" placeholder="locandina del film">
+        <label for="year">Anno</label>
+        <input type="text" name="year" id="year" placeholder="anno del film">
+    </form>
+    <form id="checkbox">
+        <fieldset>
+            <legend>Quale genere?</legend>
+            <label class="container">Action
+            <input type="checkbox" id="genre" name="genre" value="action">
+            </label>
+            <label class="container">Comedy
+            <input type="checkbox" id="genre" name="genre" value="comedy">
+            </label>
+            <label class="container">Sci-fi
+            <input type="checkbox" id="genre" name="genre" value="sci-fi">
+            </label>
+            <label class="container">Drama
+                <input type="checkbox" id="genre" name="genre" value="drama">
+            </label>
+            <label class="container">Animation
+                <input type="checkbox" id="genre" name="genre" value="animation">
+            </label>
+            <label class="container">Romantic
+                <input type="checkbox" id="genre" name="genre" value="romantic">
+            </label>
+            <label class="container">Horror
+                <input type="checkbox" id="genre" name="genre" value="horror">
+            </label>
+            <label class="container">Thriller
+                <input type="checkbox" id="genre" name="genre" value="thriller">
+            </label>
+            <label class="container">Historic
+                <input type="checkbox" id="genre" name="genre" value="historic">
+            </label>
+            <label class="container">Action
+                <input type="checkbox" id="genre" name="genre" value="action">
+            </label>
+        </fieldset>
+   </form>
+   <input type="submit" id="button"></button>
+</div>
+
+<div id="parteSotto">
+
+<div class="modalParteSotto">
+    <h3 id="modalTitle"></h3>
+    <img src="" alt="" id="modalImg">
+    <p id="modalDesc"></p>
+</div>
+
+</div>
+</body>
+<script src="./script.js" type="module"></script>
+<script src="./utils.js" type="module"></script>
+</html>
